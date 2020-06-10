@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
-$username = "root";
-$password = "";
-$namedb = "nguyenquanganh_test";
+$username = "user_redmine";
+$password = "pw_redmine";
+$namedb = "db_redmine";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $namedb);
